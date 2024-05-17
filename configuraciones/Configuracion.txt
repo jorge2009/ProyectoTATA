@@ -1,0 +1,56 @@
+Requerimientos minimos
+Servidor tomcat 10
+jdk 21
+ide para java
+
+Crear BD mysql
+ejecutar Sript banco.sql de la carpeta BD
+
+Clonar repositorio 
+
+
+
+cambiar aplication.properties del proyecto
+username
+password
+por los existentes en localhost
+
+Instalar servidor Tomcat 10
+copiar camperta servidor en la ruta de servidores
+
+En Windows
+ir a CMD
+buscar ruta de servidor ejecutar en bin 
+statup.bat
+
+en la administracion del servidor cargar el war
+\proyectoDevsu\target\
+proyectoDevsu-0.0.1-SNAPSHOT.war renombrar por
+proyectoDevsu.war
+
+probar la API
+
+localhost:8090/proyectoDevsu/clientes
+localhost:8090/proyectoDevsu/cuentas
+localhost:8090/proyectoDevsu/movimientos
+revisar archivo de pruebas API get put post delete
+
+Test
+para revisar el test de proyecto ir a
+Test Packages
+ProyectoDevsuApplicationTestsCliente.java
+
+Se puede revisar la funcionalidades agregar y consulta de clientes
+
+Perfomance Test
+Se puede realizar una prueba de integracion del API
+
+ProyectoDevsuApplicationPerfomanceTests.java
+
+Verifica la conexion a clientes que tenga un estatus ok
+
+
+
+
+
+
