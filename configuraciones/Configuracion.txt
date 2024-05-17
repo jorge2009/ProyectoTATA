@@ -25,14 +25,14 @@ statup.bat
 
 en la administracion del servidor cargar el war
 \proyectoDevsu\target\
-proyectoDevsu-0.0.1-SNAPSHOT.war renombrar por
-proyectoDevsu.war
+proyectoTata-0.0.1-SNAPSHOT.war renombrar por
+proyectoTata.war
 
 probar la API
 
-localhost:8090/proyectoDevsu/clientes
-localhost:8090/proyectoDevsu/cuentas
-localhost:8090/proyectoDevsu/movimientos
+localhost:8090/proyectoTata/clientes
+localhost:8090/proyectoTata/cuentas
+localhost:8090/proyectoTata/movimientos
 revisar archivo de pruebas API get put post delete
 
 Test
