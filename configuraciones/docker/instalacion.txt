@@ -1,0 +1,10 @@
+#Edision docker 
+nano Dockerfile
+#construccion del docker
+ docker build -t tomcat:v1 .
+#ver imagenes docker
+ docker images
+#correr imagen docker
+docker run tomcat
+#exportar docker
+docker save tomcat > /home/jorge/export.tar
