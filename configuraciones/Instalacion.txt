@@ -11,6 +11,7 @@ para la base de datos se utilizo MySQL
 se encuentra adjunto el script de la base de datos
 es importante cambiar las credenciales dentro del proyectos en properties para tener acceso a la base de datos
 el contenedor esta generado con las características del archivo de creación y publicación
+En aplicacion .properties cambiar la configurqacion de base de datos y usuario
 
 
 La ruta para descarga github es
